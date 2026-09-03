@@ -1,0 +1,76 @@
+{
+  "TILESIGHT": {
+    "Config": {
+      "Legend": "Tile Sight",
+      "ModeLabel": "Observation Mode",
+      "Hint": "Choose whether this tile is always visible or only visible while observed by one of the selected senses.",
+      "SensesLabel": "Revealed By",
+      "SensesHint": "The tile is shown when any selected sense can observe it.",
+      "ConstraintsLabel": "Observation Constraints",
+      "RequireLineOfSight": "Require line of sight",
+      "RequireRange": "Require range",
+      "FilterModeLabel": "Reveal Filter",
+      "FilterInherit": "Use global reveal filter",
+      "TagsLabel": "Tags",
+      "TagsPlaceholder": "illusion, ethereal, invisible",
+      "TagsHint": "Comma-separated tags used by macros and active effects."
+    },
+    "ObservationMode": {
+      "Always": "Always",
+      "Senses": "Selected Senses",
+      "Sight": "Sight",
+      "SeeInvisibility": "See Invisibility"
+    },
+    "SightForm": {
+      "Normal": "Normal Sight",
+      "Darkvision": "Darkvision",
+      "DevilsSight": "Devil's Sight",
+      "Blindsight": "Blindsight",
+      "Tremorsense": "Tremorsense",
+      "Truesight": "Truesight",
+      "SeeInvisibility": "See Invisibility",
+      "ThermalVision": "Thermal Vision"
+    },
+    "FilterMode": {
+      "None": "None",
+      "Spectral": "Spectral",
+      "Ethereal": "Ethereal",
+      "Arcane": "Arcane",
+      "Shadow": "Shadow",
+      "Thermal": "Thermal",
+      "Tremor": "Tremor",
+      "Monochrome": "Monochrome"
+    },
+    "Settings": {
+      "Diagnostics": {
+        "Name": "Tile Sight: GM Diagnostics",
+        "Hint": "Draw a GM-only canvas overlay for tiles controlled by Tile Sight."
+      },
+      "SenseAuras": {
+        "Name": "Tile Sight: Sight Aura",
+        "Hint": "Draw relevant sight ranges around selected tokens or the preview token on the GM client."
+      },
+      "FadeDuration": {
+        "Name": "Tile Sight: Reveal Fade Duration",
+        "Hint": "Client-side fade duration in milliseconds when Tile Sight shows or hides a tile."
+      },
+      "FilterMode": {
+        "Name": "Tile Sight: Reveal Filter",
+        "Hint": "Client-side visual filter applied to observed Tile Sight tiles."
+      },
+      "VisibilityMemory": {
+        "Name": "Tile Sight: Once Seen, Remains Seen",
+        "Hint": "Remember observed Tile Sight tiles for this user/client while Foundry's native tile visibility still allows them."
+      }
+    },
+    "Diagnostics": {
+      "Always": "Always visible through normal Foundry tile rules.",
+      "Hidden": "Hidden",
+      "Sight": "Sight observed {observed}/{total} shape sample points.",
+      "SeeInvisibility": "See Invisibility observed {observed}/{total} shape sample points using {sources} active sources.",
+      "Senses": "{senses} observed {observed}/{total} shape sample points.",
+      "UnknownSource": "Unknown source",
+      "Visible": "Visible"
+    }
+  }
+}

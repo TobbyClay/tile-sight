@@ -1,0 +1,43 @@
+{
+  "id": "tile-sight",
+  "type": "module",
+  "title": "Tile Sight",
+  "description": "Adds per-tile selected-sense observation rules and reveal filters.",
+  "version": "0.5.3",
+  "authors": [
+    {
+      "name": "Victo"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "5.3.0",
+          "verified": "5.3.2"
+        }
+      }
+    ]
+  }
+}

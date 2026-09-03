@@ -1,0 +1,12 @@
+.tile-sight-fieldset {
+  margin-top: 1rem;
+}
+
+.tile-sight-fieldset .form-fields select {
+  min-width: 12rem;
+}
+
+.tile-sight-fieldset .tile-sight-sense-select {
+  min-width: 12rem;
+  width: 100%;
+}
